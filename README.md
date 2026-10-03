@@ -307,10 +307,10 @@ Where chokepoint transit weights evaluate to:
 ### 6.3. Insurance Sub-Engine
 Calculates risk-adjusted marine cargo insurance premiums per barrel:
 
-$$\text{Insurance Premium} = P_{\text{base\_ins}} + C_{\text{conflict}} + C_{\text{sanctions}} + C_{\text{port}} + C_{\text{chokepoint}}$$
+$$\text{Insurance Premium} = P_{\text{base}} + C_{\text{conflict}} + C_{\text{sanctions}} + C_{\text{port}} + C_{\text{chokepoint}}$$
 
 Where:
-- $P_{\text{base\_ins}} = \$0.80/\text{bbl}$
+- $P_{\text{base}} = \$0.80/\text{bbl}$
 - $C_{\text{conflict}} = \$0.60$ (War) $+ \$0.50$ (Civil War) $+ C_{\text{terror}}$ (up to $\$0.40$ for Very High terror threat)
 - $C_{\text{sanctions}} = \$0.40$ (if active sanctions apply)
 - $C_{\text{port}} = \$0.40$ (Blocked Port) or $\$0.20$ (Partially Blocked Port)
